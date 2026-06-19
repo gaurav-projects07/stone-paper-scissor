@@ -6,6 +6,10 @@ A web-based Stone Paper Scissor game developed using HTML, CSS, and JavaScript. 
 
 https://gaurav-projects07.github.io/stone-paper-scissor/
 
+## Preview
+
+![Stone Paper Scissor](images/screenshot.png)
+
 ## Features
 
 * Play Stone Paper Scissor against the computer
@@ -14,6 +18,7 @@ https://gaurav-projects07.github.io/stone-paper-scissor/
 * Instant win, lose, and draw results
 * Interactive game icons
 * Responsive and user-friendly design
+* Reset and replay functionality
 
 ## Technologies Used
 
@@ -29,7 +34,8 @@ stone-paper-scissor/
 ├── images/
 │   ├── stone.png
 │   ├── paper.png
-│   └── scissor.png
+│   ├── scissor.png
+│   └── screenshot.png
 │
 ├── index.html
 ├── styles.css
@@ -58,14 +64,15 @@ cd stone-paper-scissor
 1. Stone beats Scissor.
 2. Scissor beats Paper.
 3. Paper beats Stone.
-4. If both choices are the same, the game ends in a draw.
-5. Scores are updated automatically after each round.
+4. If both the player and computer choose the same option, the round ends in a draw.
+5. The score is updated automatically after each round.
 
 ## Future Enhancements
 
 * Dark mode support
 * Sound effects and animations
 * Match history tracking
+* Difficulty levels
 * Multiplayer mode
 
 ## Author
